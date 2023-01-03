@@ -1,5 +1,7 @@
 # Click Analysis
 
+![uci-logo](./img/0-uci)
+
 Full project report can be found [here](./analysis.ipynb).
 
 Skills: Python, SQL (DuckDB), and Visualization (Seaborn)
