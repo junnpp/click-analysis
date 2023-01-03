@@ -12,19 +12,24 @@ Conducted a clickstream analysis on data for online shopping store offering clot
 Columns are as follows:
 
 ![column-description](./img/2-columns.png)
- 
+
+---
+
 ## Exploratory Data Analysis
 
 ### Traffic Distribution Across Weekdays
 
 There are two columns that indicate user traffic: `order`, `session ID`. While each `session ID` represents an unique user, `order` shows the whole sequence of customers behavior on the website by indicating each click. Let's compare them to see if there's any difference.
 
-<p float="left">
-  <img src="./img/3-click-dist.png" width="100" />
-  <img src="./img/4-session-dist.png" width="100" /> 
-</p>
+Click Distribution         |  Session Distribution
+:-------------------------:|:-------------------------:
+![dist1](./img/3-click-dist.png)  |  ![dist2](./img/4-session-dist.png)
+
 
 Notice there's hardly any difference between two distributions. Tuesday has the largest amount of traffic while weekends have the least. Recall that this website offers clothings for pregnant women, meaning that the users are most likely pregnant women themselves. Assuming most users are staying at home due to pregnancy, they might have more free time to search for clothings when other family members are not around: weekdays, especially around afternoon. As to Tuesday having the peak, we can make a hypothesis that the more it is close to the weekends, the more time customers have to spend for family business.
+
+
+---
 
 ### Session Distribution Across Countries
 
@@ -38,7 +43,7 @@ The majority traffic occurs in european countries.
 
 There is significantly more traffic during April. Accoring to the birthrate analysis "[Do humans have mating seasons?](https://visme.co/blog/most-common-birthday/)", there is an interesting pattern of birth months. Around the world, there is NOT a single country with its peak birth month as April and most european countries have their peak birth month bewteen June-September. This indicates that demand for prenant women's clothing in european countries will be higher between February-April compared to that of June-September.
 
-![peak-birth-month](./img/1.peak-birth-month.png)
+<img src="./img/1.peak-birth-month.png" width="600">
 
 ### Product Price Distribution
 
@@ -55,7 +60,7 @@ Product price ranges between $18-$80 and the majority products cost about $40.
 ![click-order](./img/8-click-order.png)
 
 Notice top-left has the largest amount of traffic for most cases, while the top-right has the least amount of traffic. While the first click has the most traffic, its deviation among photo locations is larger compared to that of other click orders. As customers make more subsequent clicks, they tend to not care about photo location as much.
-
+---
 ### Any relationship between photo location and model photography?
 
 ![loc-type](./img/9-photo-type-vs-loc.png)
@@ -65,6 +70,8 @@ Due to the huge overall difference in traffic between en face and profile photo 
 1. Top-left photo location has the largest traffic discrepancy between the two photo types.
 2. Bottom-center has the least traffic difference between the two photo types.
 3. While the amount of traffic fluctuates among top-right, bottom-left, and bottom-right for en face type, it does not differ that much for profile photo type.
+
+---
 
 ### Should we inform customers that the price of a particular product is higher than the average price for other products in the same category?
 
@@ -85,6 +92,8 @@ Now, repeat this analysis for rows whose first click `price 2` value is 2 (No).
 ![price2-3](./img/12-price2-2.png)
 
 Customers who made the first click on the products that are NOT informing whether the price is higher than the average price for other products are much more likely (~11%) to make second clicks on the products that are NOT informing about the price as well.
+
+---
 
 ###  What is the popular product type, color, or type-color combination?
 
