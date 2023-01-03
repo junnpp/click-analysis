@@ -11,7 +11,22 @@ Conducted a clickstream analysis on data for online shopping store offering clot
 
 Columns are as follows:
 
-![column-description](./img/2-columns.png)
+| Field Name | Description                                                                                                                                     |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------ |
+| year	     | the year of the record: 2008 |
+| month	     | the month of the record: from April (4) to August (8) |
+| day	     | day number of the month |
+| order	     | sequence of clicks during one session |
+| country	 | variable indicating the country of origin of the IP address categories are specified in the e-shop clothing 2008 data description.txt file in the data directory |
+| session ID | variable indicating session id (short record) |
+| page 1 (main category) | 	indicates the main product category: 1-trousers, 2-skirts, 3-blouses, 4-sale |
+| page 2 (clothing model)| 	contains information about thre code for each product (217 products in total) |
+| colour | color of product 1-beige, 2-black, 3-blue, 4-brown, 5-burgundy, 6-gray, 7-green, 8-navy blue, 9-of many colors, 10-olive, 11-pink, 12-red, 13-violet, 14-white |
+| location | photo location on the page, the screen has been divided into six parts 1-top left, 2-top center, 3-top right 4-bottom left, 5-bottom center, 6-bottom right |
+| model photography	| variable with two categories: 1-en face, 2-profile |
+| price	| price in US dollars |
+| price 2 | variable informing whether the price of a particular product is higher than the average price for the entire product category 1-yes, 2-no |
+| page | page number within the e-store website (from 1 to 5) |
 
 ---
 
@@ -33,9 +48,22 @@ Notice there's hardly any difference between two distributions. Tuesday has the 
 
 ### Session Distribution Across Countries
 
-![country](./img/5-country-dist.png)
+| Country | Total |
+|---------|-------|
+| Poland  | 19582 |
+| Czech Repulic | 2261 |
+| *.net | 681 |
+| Lithuania | 527 |
+| *.com | 240 | 
+| United Kingdom | 127 |
+| Ireland | 102 |
+| Germany | 101 |
+| Slovakia | 88 | 
+| unidentified | 28 |
 
 The majority traffic occurs in european countries.
+
+---
 
 ### Traffic Distribution Across Months
 
@@ -44,6 +72,8 @@ The majority traffic occurs in european countries.
 There is significantly more traffic during April. Accoring to the birthrate analysis "[Do humans have mating seasons?](https://visme.co/blog/most-common-birthday/)", there is an interesting pattern of birth months. Around the world, there is NOT a single country with its peak birth month as April and most european countries have their peak birth month bewteen June-September. This indicates that demand for prenant women's clothing in european countries will be higher between February-April compared to that of June-September.
 
 <img src="./img/1.peak-birth-month.png" width="600">
+
+---
 
 ### Product Price Distribution
 
