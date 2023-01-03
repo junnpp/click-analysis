@@ -43,7 +43,6 @@ Click Distribution         |  Session Distribution
 
 Notice there's hardly any difference between two distributions. Tuesday has the largest amount of traffic while weekends have the least. Recall that this website offers clothings for pregnant women, meaning that the users are most likely pregnant women themselves. Assuming most users are staying at home due to pregnancy, they might have more free time to search for clothings when other family members are not around: weekdays, especially around afternoon. As to Tuesday having the peak, we can make a hypothesis that the more it is close to the weekends, the more time customers have to spend for family business.
 
-
 ---
 
 ### Session Distribution Across Countries
@@ -90,7 +89,9 @@ Product price ranges between $18-$80 and the majority products cost about $40.
 ![click-order](./img/8-click-order.png)
 
 Notice top-left has the largest amount of traffic for most cases, while the top-right has the least amount of traffic. While the first click has the most traffic, its deviation among photo locations is larger compared to that of other click orders. As customers make more subsequent clicks, they tend to not care about photo location as much.
+
 ---
+
 ### Any relationship between photo location and model photography?
 
 ![loc-type](./img/9-photo-type-vs-loc.png)
