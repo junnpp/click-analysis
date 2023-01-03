@@ -4,7 +4,7 @@ Full project report can be found [here](./analysis.ipynb).
 
 Skills: Python, SQL (DuckDB), and Visualization (Seaborn)
 
-Conducted a clickstream analysis on data for online shopping store offering clothings for pregnant women between April 2008 to August 2008. The data set is publicly posted on [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/clickstream+data+for+online+shopping). It contains approximately 160,000 rows with 14 columns and each row represents a single click per customer. The main scope of the analysis can be summarized on two points:
+Conducted a clickstream analysis on data for online shopping store offering clothing for pregnant women between April 2008 to August 2008. The data set is publicly posted on [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/clickstream+data+for+online+shopping). It contains approximately 160,000 rows with 14 columns and each row represents a single click per customer. The main scope of the analysis can be summarized on two different points:
 
 1. What is the overall traffic distribution?
 2. What factors affect customers behavior on the website?
