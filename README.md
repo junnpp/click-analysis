@@ -22,7 +22,7 @@ To optimize user experience on a website, it is essential to understand how cust
 Two columns indicate the user traffic: `order` and `session ID`. While each `session ID` represents an unique user in a specific time frame, `order` shows the whole sequence of customers behavior on the website (1 indicates the first click a customer makes and 2 is the second click, and so on). Let's compare them to see if there's any difference.
 
 <p align="center">
-  <img align="middle" src="./img/3-click-dist.png" width=500 height=275><img align="middle" src="./img/4-session-dist.png" width=500 height=275> 
+  <img align="middle" src="./img/3-click-dist.png" width=500 height=275> <img align="middle" src="./img/4-session-dist.png" width=500 height=275> 
 </p>
 
 Notice there's hardly any difference between two distributions. Tuesday has the largest amount of traffic while weekends have the least. Recall that this website offers clothings for pregnant women, meaning that the users are most likely pregnant women themselves. Assuming most users are staying at home due to pregnancy, they might have more free time to search for clothings when other family members are not around: weekdays, especially around afternoon. As to Tuesday having the peak, we can make a hypothesis that the more it is close to the weekends, the more time customers have to spend for family business. Since there is not a significant difference between the two, we can safely use either of them for the further analysis.
@@ -43,7 +43,7 @@ There is significantly more traffic during April. Accoring to the birthrate anal
 
 ![product-price-dist](./img/7-price-dist.png)
 
-Clicked product price ranges between $18-$80. $40 products received the most clicks and $40 has the second most clicks.
+Clicked product price ranges between $18-$80. $40 products received the most clicks and $40 had the second most clicks.
 
 ## Click Analysis
 
