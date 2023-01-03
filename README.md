@@ -22,7 +22,7 @@ To optimize the user experience on a website, it is essential to understand how 
 Two columns indicate the user traffic: `order` and `session ID`. While each `session ID` represents a unique user in a specific time frame, `order` shows the whole sequence of customers' behavior on the website (1 indicates the first click a customer makes and 2 is the second click, and so on). Let's compare them to see if there's any difference.
 
 <p align="center">
-  <img align="middle" src="./img/3-click-dist.png" width="50%" height=280><img align="middle" src="./img/4-session-dist.png" width="50%" height=275> 
+  <img align="middle" src="./img/3-click-dist.png" width="50%" height=275><img align="middle" src="./img/4-session-dist.png" width="50%" height=275> 
 </p>
 
 Notice there's hardly any difference between the two distributions. Tuesday has the largest amount of traffic while weekends have the least. Recall that this website offers clothing for pregnant women, meaning that the users are most likely pregnant women themselves. Assuming most users are staying at home due to pregnancy, they might have more free time to search for clothing when other family members are not around: weekdays, especially around the afternoon. As to Tuesday having the peak, we can make a hypothesis that the more it is close to the weekends, the more time customers have to spend on the family business. Since there is not a significant difference between the two, we can safely use either of them for further analysis.
@@ -34,7 +34,7 @@ The majority of traffic occurs in European countries: 1. Poland (n=19582), 2. Cz
 ### Traffic Distribution - Month
 
 <p align="center">
-  <img align="middle" src="./img/6-month-dist.png" width="65%"><img align="middle" src="./img/1.peak-birth-month.png" width="35%"> 
+  <img align="middle" src="./img/6-month-dist.png" width="65%" height=335><img align="middle" src="./img/1.peak-birth-month.png" width="35%"> 
 </p>
 
 There is significantly more traffic during April. According to the birthrate analysis "[Do humans have mating seasons?](https://visme.co/blog/most-common-birthday/)", there is an interesting pattern of birth months. Around the world, there is NOT a single country with its peak birth month as April and most European countries have their peak birth month between June-September. This indicates that demand for pregnant women's clothing in European countries will be higher between February-April compared to that of June-September.
