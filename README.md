@@ -34,7 +34,7 @@ The majority of traffic occurs in European countries: 1. Poland (n=19582), 2. Cz
 ### Traffic Distribution - Month
 
 <p align="center">
-  <img align="middle" src="./img/6-month-dist.png" width="65%" height=335><img align="middle" src="./img/1.peak-birth-month.png" width="35%"> 
+  <img align="middle" src="./img/6-month-dist.png" width="65%" height=300><img align="middle" src="./img/1.peak-birth-month.png" width="35%"> 
 </p>
 
 There is significantly more traffic during April. According to the birthrate analysis "[Do humans have mating seasons?](https://visme.co/blog/most-common-birthday/)", there is an interesting pattern of birth months. Around the world, there is NOT a single country with its peak birth month as April and most European countries have their peak birth month between June-September. This indicates that demand for pregnant women's clothing in European countries will be higher between February-April compared to that of June-September.
