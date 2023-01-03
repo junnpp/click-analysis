@@ -1,6 +1,6 @@
 # Click Analysis
 
-![uci-logo](./img/0-uci)
+![uci-logo](./img/0-uci.png)
 
 Full project report can be found [here](./analysis.ipynb).
 
