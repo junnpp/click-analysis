@@ -21,9 +21,13 @@ To optimize the user experience on a website, it is essential to understand how 
 <details>
 <summary>Traffic Distribution - Click/Session</summary>
 
-- There are two columns indicate the user traffic: `order` and `session ID`.
-    - `session ID`: a unique user in a specific time frame (each `session ID` has more than 1 clicks)
-    - `order`: the whole sequence of customers' behavior on the website (order of 1 indicates the first click and 2 indicates the second click, and so on)
+<p align="left">
+    <img src="./img/3-click-dist.png" width="60%"> 
+</p>
+
+There are two columns indicate the user traffic: `order` and `session ID`.
+  - `session ID`: a unique user in a specific time frame (each `session ID` has more than 1 clicks)
+  - `order`: the whole sequence of customers' behavior on the website (order of 1 indicates the first click and 2 indicates the second click, and so on)
 - The week day distributions of the two are almost identical.
 - Tuesday has the largest amount of traffic while weekends have the least. A hypothesis is that the more it is close to the weekends, the more time customers (pregnant women) have to spend time on the family business.
 
@@ -31,6 +35,10 @@ To optimize the user experience on a website, it is essential to understand how 
 
 <details>
 <summary>Traffic Distribution - Countries</summary>
+
+<p align="left">
+    <img src="./img/5-country-dist.png" width="60%"> 
+</p>
 
 The majority of traffic occurs in European countries:
 
@@ -47,22 +55,29 @@ The majority of traffic occurs in European countries:
 <details>
 <summary>Traffic Distribution - Month</summary>
 
-There is significantly more traffic during April compared to May, July, June, and August (least). 
 
 <p align="left">
-    <img src="./img/1.peak-birth-month.png" width="35%"> 
+    <img src="./img/6-month-dist.png" width="60%"> 
 </p>
 
+There is significantly more traffic during April compared to May, July, June, and August (least). 
+
  According to a [birthrate analysis](https://visme.co/blog/most-common-birthday/)", there is NOT a single country with its peak birth month as April and most European countries have their peak birth month between June-September. This indicates that demand for pregnant women's clothing in European countries will be higher between February-April compared to that of June-September.
+
+<p align="left">
+    <img src="./img/1.peak-birth-month.png" width="60%"> 
+</p>
 
 </details>
 
 <details>
 <summary>Product Price Distribution</summary>
 
-There is significantly more traffic during April compared to May, July, June, and August (least). 
+<p align="left">
+    <img src="./img/7-price-dist.png" width="60%"> 
+</p>
 
-- The clicked product price ranges between $18-$80. $40 products received the most clicks and $40 had the second most clicks.
+The clicked product price ranges between $18-$80. $40 products received the most clicks and $40 had the second most clicks.
 
 </details>
 
