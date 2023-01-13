@@ -18,7 +18,8 @@ To optimize the user experience on a website, it is essential to understand how 
 
 ## Exploratory Data Analysis
 
-### Traffic Distribution - Click/Session
+<details>
+<summary>Traffic Distribution - Click/Session</summary>
 
 - There are two columns indicate the user traffic: `order` and `session ID`.
     - `session ID`: a unique user in a specific time frame (each `session ID` has more than 1 clicks)
@@ -26,7 +27,10 @@ To optimize the user experience on a website, it is essential to understand how 
 - The week day distributions of the two are almost identical.
 - Tuesday has the largest amount of traffic while weekends have the least. A hypothesis is that the more it is close to the weekends, the more time customers (pregnant women) have to spend time on the family business.
 
-### Traffic Distribution - Countries
+</details>
+
+<details>
+<summary>Traffic Distribution - Countries</summary>
 
 The majority of traffic occurs in European countries:
 
@@ -38,9 +42,12 @@ The majority of traffic occurs in European countries:
 6. Germany: n=101
 7. Slovakia: n=88
 
-### Traffic Distribution - Month
+</details>
 
-- There is significantly more traffic during April compared to May, July, June, and August (least). 
+<details>
+<summary>Traffic Distribution - Month</summary>
+
+There is significantly more traffic during April compared to May, July, June, and August (least). 
 
 <p align="left">
     <img src="./img/1.peak-birth-month.png" width="35%"> 
@@ -48,19 +55,31 @@ The majority of traffic occurs in European countries:
 
  According to a [birthrate analysis](https://visme.co/blog/most-common-birthday/)", there is NOT a single country with its peak birth month as April and most European countries have their peak birth month between June-September. This indicates that demand for pregnant women's clothing in European countries will be higher between February-April compared to that of June-September.
 
-### Product Price Distribution
+</details>
+
+<details>
+<summary>Product Price Distribution</summary>
+
+There is significantly more traffic during April compared to May, July, June, and August (least). 
 
 - The clicked product price ranges between $18-$80. $40 products received the most clicks and $40 had the second most clicks.
 
+</details>
+
+
 ## Click Analysis
 
-### Q. Does the photo location significantly affect the click rate?
+<details>
+<summary>Q. Does the photo location significantly affect the click rate?</summary>
 
 ![click-order](./img/8-click-order.png)
 
 Notice top-left has the largest amount of traffic for most cases, while the top-right has the least amount of traffic. While the first click has the most traffic, its deviation among photo locations is larger compared to that of other click orders. As customers make more subsequent clicks, they tend to not care about photo location as much.
 
-### Q. Any relationship between photo location and model photography?
+</details>
+
+<details>
+<summary>Q. Any relationship between photo location and model photography?</summary>
 
 ![loc-type](./img/9-photo-type-vs-loc.png)
 
@@ -70,7 +89,10 @@ Notice top-left has the largest amount of traffic for most cases, while the top-
     2. Bottom-center has the least traffic difference between the two photo types.
     3. While the amount of traffic fluctuates among top-right, bottom-left, and bottom-right for en face type, it does not differ that much for profile photo type.
 
-### Q. Should we inform customers that the price of a particular product is higher than the average price for other products in the same category?
+</details>
+
+<details>
+<summary>Q. Should we inform customers that the price of a particular product is higher than the average price for other products in the same category?</summary>
 
 `price 2` column indicates whether the price of a particular product is higher than the average price for the entire product category. This analysis only considers the first click.
 
@@ -89,7 +111,10 @@ Notice top-left has the largest amount of traffic for most cases, while the top-
     - Yes: 44.94%
     - No: 55.05%
 
-### Q. What is the popular product type, color, or type-color combination (first click)?
+</details>
+
+<details>
+<summary>Q. What is the popular product type, color, or type-color combination (first click)?</summary>
 
 ### Color-Photo Location
 
@@ -103,6 +128,8 @@ Blue products located at the top left on the first page of the website have the 
 The blue trouser has significantly more clicks than others on the first page.
 
 ![color3](./img/15-color3.png)
+
+</details>
 
 ## References
 
