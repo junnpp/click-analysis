@@ -36,10 +36,6 @@ There are two columns indicate the user traffic: `order` and `session ID`.
 <details>
 <summary>Traffic Distribution - Countries</summary>
 
-<p align="left">
-    <img src="./img/5-country-dist.png" width="60%"> 
-</p>
-
 The majority of traffic occurs in European countries:
 
 1. Poland: n=19582
