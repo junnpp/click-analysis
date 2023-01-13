@@ -2,9 +2,9 @@
 
 ![uci-logo](./img/0-uci.png)
 
-Conducted a clickstream analysis on data for an online shopping store offering clothing for pregnant women between April 2008 to August 2008. The data set is publicly posted on [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/clickstream+data+for+online+shopping). It contains approximately 160,000 rows with 14 columns and each row represents a single click per customer. Column value description can be found in the full project report.
+### [Report can be found here](./analysis.ipynb).
 
-A thorough project report can be found [here](./analysis.ipynb).
+Conducted a clickstream analysis on data for an online shopping store offering clothing for pregnant women between April 2008 to August 2008. The data set is publicly posted on [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/clickstream+data+for+online+shopping). It contains approximately 160,000 rows with 14 columns and each row represents a single click per customer. Column value description can be found in the full project report.
 
 ## Motivation
 
