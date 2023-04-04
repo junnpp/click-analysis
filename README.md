@@ -103,9 +103,9 @@ Notice top-left has the largest amount of traffic for most cases, while the top-
 </details>
 
 <details>
-<summary>Q. Should we inform customers that the price of a particular product is higher than the average price for other products in the same category?</summary>
+<summary>Q. Any Significant Relationship bewteen Product Price and Clicks?</summary>
 
-`price 2` column indicates whether the price of a particular product is higher than the average price for the entire product category. This analysis only considers the first click.
+`price 2` column indicates whether the price of a particular product is higher than the average price for the entire product category. This analysis only considers first and second clicks. `1` indicates 'Yes' (product price higher than the average price in its category) and `2` indicates 'No' (product price lower than the average price in its category)
 
 - Yes: 50.48%
 - No: 49.52%
@@ -114,13 +114,13 @@ Notice top-left has the largest amount of traffic for most cases, while the top-
 
 - **First Click: Yes**
   - Second Click:
-    - Yes: 56.02%
+    - **Yes: 56.02%**
     - No: 43.98%
 
 - **First Click: No**
   - Second Click:
     - Yes: 44.94%
-    - No: 55.05%
+    - **No: 55.05%**
 
 </details>
 
@@ -141,6 +141,9 @@ The blue trouser has significantly more clicks than others on the first page.
 ![color3](./img/15-color3.png)
 
 </details>
+
+## Recommendations
+
 
 ## References
 
