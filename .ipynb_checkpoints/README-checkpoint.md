@@ -38,13 +38,13 @@ There are two columns indicate the user traffic: `order` and `session ID`.
 
 The majority of traffic occurs in European countries:
 
-1. Poland: n=19582
-2. Czech Republic: n=2261
-3. Lithuania: n=527
-4. United Kingdom: n=127
-5. Ireland: n=102
-6. Germany: n=101
-7. Slovakia: n=88
+1. Poland: 19582
+2. Czech Republic: 2261
+3. Lithuania: 527
+4. United Kingdom: 127
+5. Ireland: 102
+6. Germany: 101
+7. Slovakia: 88
 
 </details>
 
@@ -141,6 +141,9 @@ The blue trouser has significantly more clicks than others on the first page.
 ![color3](./img/15-color3.png)
 
 </details>
+
+## Recommendations
+
 
 ## References
 
