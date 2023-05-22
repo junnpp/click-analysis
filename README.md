@@ -38,31 +38,24 @@ There are two columns indicate the user traffic: `order` and `session ID`.
 
 The majority of traffic occurs in European countries:
 
-1. Poland: n=19582
-2. Czech Republic: n=2261
-3. Lithuania: n=527
-4. United Kingdom: n=127
-5. Ireland: n=102
-6. Germany: n=101
-7. Slovakia: n=88
+1. Poland: 19582
+2. Czech Republic: 2261
+3. Lithuania: 527
+4. United Kingdom: 127
+5. Ireland: 102
+6. Germany: 101
+7. Slovakia: 88
 
 </details>
 
 <details>
 <summary>Traffic Distribution - Month</summary>
 
-
 <p align="left">
     <img src="./img/6-month-dist.png" width="60%"> 
 </p>
 
-There is significantly more traffic during April compared to May, July, June, and August (least). 
-
- According to a [birthrate analysis](https://visme.co/blog/most-common-birthday/)", there is NOT a single country with its peak birth month as April and most European countries have their peak birth month between June-September. This indicates that demand for pregnant women's clothing in European countries will be higher between February-April compared to that of June-September.
-
-<p align="left">
-    <img src="./img/1.peak-birth-month.png" width="60%"> 
-</p>
+Compared to May-August, April experienced significantly higher traffic. According to an [article on pregnancy patterns](https://visme.co/blog/most-common-birthday), there is no specific month with the highest number of pregnancies in April. However, in most European countries, the months with the highest pregnancy rates are from July to October. In Poland, which has the highest website traffic, October sees the highest number of pregnancies. Assuming a 40-week gestation period, the peak of childbirth would occur around August. This suggests that the peak traffic in March-April, coinciding with the highest number of pregnancies, gradually declines towards August.
 
 </details>
 
